@@ -44,6 +44,16 @@ Crear y configurar `jsdoc.conf.json` en base al siguiente ejemplo
 	"opts": {
 		"template": "node_modules/fizz-docdash", 	// Template utilizado. Ver package.json
 		"private": false 							// mostra/ocultar las funciones privadas documentadas
+	},
+	"search": true,
+	"collapse": true,
+	"menu":{
+		"BitBucket":{
+			"href":"https://bitbucket.org/fizzmodsrl/[proyecto]/src/master/",
+			"target":"_blank",
+			"class":"menu-item",
+			"id":"website_link"
+		}
 	}
 }
 ```

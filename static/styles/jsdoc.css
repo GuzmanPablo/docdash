@@ -33,6 +33,7 @@
 html, body {
 	height: 100%;
 	width: 100%;
+	font-family: Montserrat;
 }
 
 body {
@@ -156,11 +157,11 @@ tt, code, kbd, samp {
 }
 
 .class-description {
-	font-size: 130%;
+	font-size: 14%;
 	line-height: 140%;
 	margin-bottom: 1em;
 	margin-top: 1em;
-	font-family: Monserrat;
+	font-family: Montserrat;
 }
 
 .class-description:empty {
@@ -410,7 +411,7 @@ footer {
 	width: inherit;
 	line-height: 18px;
 	display: block;
-	background-color: #0d152a;
+	background-color: #262626;
 	color: #aeaeae;
 }
 
