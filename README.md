@@ -14,17 +14,17 @@ $ npm install jsdoc fizz-docdash
 #### jsdoc.conf.json
 Crear y configurar `jsdoc.conf.json` en base al siguiente ejemplo
 
-```
+```json
 {
-	"plugins": [ "plugins/markdown.js" ],	// pluging utilizado para renderizar README.md
+	"plugins": [ "plugins/markdown.js" ],
 	"markdown": {
-		"idInHeadings": true 				// Genera anclas en los titulos para luego referenciar en un indice
+		"idInHeadings": true
 	},
 	"recurseDepth": 50,
 	"source": {
 		"include": [
-			"./src/js/global.js", 			// agregar todos los archivos *.js que tengan comentarios jsdoc
-			"./README.md" 					// Solo se puede agregar un archivo *.md
+			"./src/js/global.js",
+			"./README.md"
 		],
 		"includePattern": ".+\\.js(doc|x)?$",
 		"excludePattern": "((^|\\/|\\\\)_|node_modules)"
@@ -42,8 +42,18 @@ Crear y configurar `jsdoc.conf.json` en base al siguiente ejemplo
 		"monospaceLinks": false
 	},
 	"opts": {
-		"template": "node_modules/fizz-docdash", 	// Template utilizado. Ver package.json
-		"private": false 							// mostra/ocultar las funciones privadas documentadas
+		"template": "node_modules/fizz-docdash",
+		"private": false
+	},
+	"search": true,
+	"collapse": true,
+	"menu":{
+		"BitBucket":{
+			"href":"https://bitbucket.org/fizzmodsrl/[proyecto]/src/master/",
+			"target":"_blank",
+			"class":"menu-item",
+			"id":"website_link"
+		}
 	}
 }
 ```
