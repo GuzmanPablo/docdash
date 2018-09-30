@@ -1,5 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+@font-face {
+  font-family: 'FatFrank';
+  src: url('../fonts/FatFrank-Regular.eot');
+  src: local('../fonts/FatFrank-Regular'),
+    url('../fonts/FatFrank-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FatFrank-Regular.woff2') format('woff2'),
+    url('../fonts/FatFrank-Regular.woff') format('woff'),
+    url('../fonts/FatFrank-Regular.ttf') format('truetype'),
+    url('../fonts/FatFrank-Regular.svg#FatFrank-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'FizzFont';
+  src:  url('../fonts/icomoon.eot?aruoej');
+  src:  url('../fonts/icomoon.eot?aruoej#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff2?aruoej') format('woff2'),
+    url('../fonts/icomoon.ttf?aruoej') format('truetype'),
+    url('../fonts/icomoon.woff?aruoej') format('woff'),
+    url('../fonts/icomoon.svg?aruoej#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box
 }
