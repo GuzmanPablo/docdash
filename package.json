@@ -1,6 +1,6 @@
 {
   "name": "fizz-docdash",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Tema para JSDoc 3 inspirado en Docdash para Fizzmod",
   "main": "publish.js",
   "scripts": {

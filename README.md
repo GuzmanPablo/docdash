@@ -1,5 +1,5 @@
 # Fizz Docdash
-[![npm version](https://badge.fury.io/js/docdash.svg)](https://badge.fury.io/js/docdash) [![license](https://img.shields.io/npm/l/docdash.svg)](LICENSE.md)
+[![npm version](https://badge.fury.io/js/fizz-docdash.svg)](https://www.npmjs.com/package/fizz-docdash) [![license](https://img.shields.io/npm/l/fizz-docdash.svg)](LICENSE.md)
 
 Template para [JSDoc 3](http://usejsdoc.org/) basado en [Docdash](http://clenemt.github.io/docdash/) para [Fizzmod](http://new.fizzmod.com/)
 
