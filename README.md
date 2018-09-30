@@ -14,17 +14,17 @@ $ npm install jsdoc fizz-docdash
 #### jsdoc.conf.json
 Crear y configurar `jsdoc.conf.json` en base al siguiente ejemplo
 
-```json
+```
 {
-	"plugins": [ "plugins/markdown.js" ],// pluging utilizado para renderizar README.md
+	"plugins": [ "plugins/markdown.js" ],	// pluging utilizado para renderizar README.md
 	"markdown": {
-		"idInHeadings": true // Genera anclas en los titulos para luego referenciar en un indice
+		"idInHeadings": true 				// Genera anclas en los titulos para luego referenciar en un indice
 	},
 	"recurseDepth": 50,
 	"source": {
 		"include": [
-			"./src/js/global.js", // agregar todos los archivos *.js que tengan comentarios jsdoc
-			"./README.md" // Solo se puede agregar un archivo *.md
+			"./src/js/global.js", 			// agregar todos los archivos *.js que tengan comentarios jsdoc
+			"./README.md" 					// Solo se puede agregar un archivo *.md
 		],
 		"includePattern": ".+\\.js(doc|x)?$",
 		"excludePattern": "((^|\\/|\\\\)_|node_modules)"
@@ -42,8 +42,8 @@ Crear y configurar `jsdoc.conf.json` en base al siguiente ejemplo
 		"monospaceLinks": false
 	},
 	"opts": {
-		"template": "node_modules/fizz-docdash", // Template utilizado. Ver package.json
-		"private": false // mostra/ocultar las funciones privadas documentadas
+		"template": "node_modules/fizz-docdash", 	// Template utilizado. Ver package.json
+		"private": false 							// mostra/ocultar las funciones privadas documentadas
 	}
 }
 ```
@@ -76,7 +76,7 @@ Docdash soporta las siguientes opciones:
 	"docdash": {
 		"static": [false|true],         // Display the static members inside the navbar
 		"sort": [false|true],           // Sort the methods in the navbar
-		"sectionOrder": [        // Order the main section in the navbar (default order shown here)
+		"sectionOrder": [        		// Order the main section in the navbar (default order shown here)
 			 "Classes",
 			 "Modules",
 			 "Externals",
